@@ -222,7 +222,7 @@ header .form i {
   display: flex;
   justify-content: flex-end;
 }
-@media (max-width: 300px){
+@media (max-width: 375px){
   .landing .overlay .text{
     padding: 15px;
   }
@@ -373,7 +373,7 @@ header .form i {
 .design .image {
   text-align: center;
 }
-@media (max-width: 300px){
+@media (max-width: 375px){
   .design .text{
     font-size: 12px;
   }
@@ -561,7 +561,7 @@ header .form i {
     margin:15px 5px;
   }
 }
-@media (max-width: 300px){
+@media (max-width: 375px){
   .video .text{
     font-size: 11px;
   }
@@ -1090,7 +1090,7 @@ header .form i {
 .subscribe .container .form1 input[type="submit"]:focus{
   outline: none;
 }
-@media (max-width:300px){
+@media (max-width:375px){
   .subscribe .container form{
     flex-direction: column;
   }

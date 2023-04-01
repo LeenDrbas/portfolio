@@ -222,6 +222,12 @@ header .form i {
   display: flex;
   justify-content: flex-end;
 }
+@media (max-width: 300px){
+  .landing .overlay .text{
+    padding: 15px;
+  }
+
+}
 .landing .overlay .text .content {
   max-width: 500px;
 }
@@ -366,6 +372,12 @@ header .form i {
 }
 .design .image {
   text-align: center;
+}
+@media (max-width: 300px){
+  .design .text{
+    font-size: 12px;
+  }
+
 }
 @media (max-width: 767px) {
   .design .image {
@@ -548,6 +560,12 @@ header .form i {
   .video .text h2{
     margin:15px 5px;
   }
+}
+@media (max-width: 300px){
+  .video .text{
+    font-size: 11px;
+  }
+
 }
 .video .text h2 {
   font-weight: normal;
@@ -1071,6 +1089,18 @@ header .form i {
 .subscribe .container .form1 input[type="email"]:focus,
 .subscribe .container .form1 input[type="submit"]:focus{
   outline: none;
+}
+@media (max-width:300px){
+  .subscribe .container form{
+    flex-direction: column;
+  }
+  .subscribe .container form i {
+    top:25%;
+  }
+  .subscribe .container .form1 input[type="email"]{
+    border-right-color: white;
+  }
+
 }
 /* end subscribe */
 /* strat contact */
